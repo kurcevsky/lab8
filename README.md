@@ -11,3 +11,6 @@ Gra toczy się na nieskończonej planszy (tutaj na skonczonej, w celu ukazania e
 <b>Reguły gry według Conwaya:</b>
 Martwa komórka, która ma dokładnie 3 żywych sąsiadów, staje się żywa w następnej jednostce czasu (rodzi się)
 Żywa komórka z 2 albo 3 żywymi sąsiadami pozostaje nadal żywa; przy innej liczbie sąsiadów umiera (z „samotności” albo „zatłoczenia”).
+
+<br>
+Ów program jest implementacją Gry w życie w wersji Conwaya, który wykorzystuje przesyłanie komunikatów pomiędzy procesami równolegle (send i receive MPI). Obsługiwalna liczba procesów powinna być wielokrotnością liczby 2 (2^N, również dla N=0).
